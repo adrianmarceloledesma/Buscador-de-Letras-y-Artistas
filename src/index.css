@@ -1,13 +1,114 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(178, 228, 252);
+}
+p{
+  font-size: 22px;
+}
+h2{
+  font-size: 25px;
+}
+/* forulario.js */
+fieldset h1{
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: rgb(255, 189, 113);
+  text-shadow: 3px 3px 4px black;
+}
+.contenedor-formulario{
+  background-image: url(img4.jpg);
+  background-size: 100% 100%;
+  font-size: 22px;
+  padding: 30px;
+}
+.contenedor-formulario fieldset{
+  width: 90%;
+  margin: auto;
+  border: none;
+
+  text-align: center;
+  padding: 0;
+}
+.contenedor-formulario .input-contenedor{
+  width:45%;
+  display:inline-block;
+  text-align: center;
+  margin: 10px;
+}
+.contenedor-formulario input{
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px 5px 5px;
+  padding: 5px;
+  
+}
+.contenedor-formulario button{
+  width:100px;
+  float:right;
+  margin-top: 10px;
+  border-radius: 5px 5px 5px;
+  padding: 5px;
+  
+}
+.contenedor-formulario label{
+  display: block;
+  box-sizing: border-box;
+  text-align: start;
+  margin-bottom: 5px;
+  color:white;
+  text-shadow: 3px 3px 5px black;
+}
+.error{
+  background-color: rgb(250, 93, 93);
+  color: rgb(100, 10, 10);
+  padding: 5px;
+  margin:0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* contenedor de  cancion y artista */
+.contenedor-resultados{
+  width: 80%;
+
+  margin: auto;
+}
+/* cancion */
+.contenedor-cancion{
+  width: 50%;
+  float: right;
+  white-space: pre-line;
+
+}
+.contenedor-cancion .cont-p{
+  width: 50%;
+  margin: auto;
+}
+.contenedor-cancion h2{
+  border-bottom: rgb(255, 154, 39) solid;
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  padding:10px 0
+}
+.contenedor-cancion p{
+  font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+
+}
+
+
+
+/* artista */
+.contenedor-artista {
+  width: 50%;
+  text-align: center;
+  white-space: pre-line;
+}
+.contenedor-artista img{
+  width: 90%;
+}
+.contenedor-artista h2{
+  background-color:rgb(255, 154, 39);
+  color: white;
+  padding: 10px 0;
 }
