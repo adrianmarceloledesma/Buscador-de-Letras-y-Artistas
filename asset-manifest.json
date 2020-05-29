@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Buscador-de-Letras-y-Artistas/static/css/main.6b55effb.chunk.css",
-    "main.js": "/Buscador-de-Letras-y-Artistas/static/js/main.3cdb3103.chunk.js",
-    "main.js.map": "/Buscador-de-Letras-y-Artistas/static/js/main.3cdb3103.chunk.js.map",
+    "main.css": "/Buscador-de-Letras-y-Artistas/static/css/main.fa8963cc.chunk.css",
+    "main.js": "/Buscador-de-Letras-y-Artistas/static/js/main.b9be0179.chunk.js",
+    "main.js.map": "/Buscador-de-Letras-y-Artistas/static/js/main.b9be0179.chunk.js.map",
     "runtime-main.js": "/Buscador-de-Letras-y-Artistas/static/js/runtime-main.7f1c9172.js",
     "runtime-main.js.map": "/Buscador-de-Letras-y-Artistas/static/js/runtime-main.7f1c9172.js.map",
     "static/js/2.9d9c96ee.chunk.js": "/Buscador-de-Letras-y-Artistas/static/js/2.9d9c96ee.chunk.js",
     "static/js/2.9d9c96ee.chunk.js.map": "/Buscador-de-Letras-y-Artistas/static/js/2.9d9c96ee.chunk.js.map",
     "index.html": "/Buscador-de-Letras-y-Artistas/index.html",
-    "precache-manifest.002e846f3474c367431a015836fcd502.js": "/Buscador-de-Letras-y-Artistas/precache-manifest.002e846f3474c367431a015836fcd502.js",
+    "precache-manifest.95db01b067db51cabf460b6b0340778d.js": "/Buscador-de-Letras-y-Artistas/precache-manifest.95db01b067db51cabf460b6b0340778d.js",
     "service-worker.js": "/Buscador-de-Letras-y-Artistas/service-worker.js",
-    "static/css/main.6b55effb.chunk.css.map": "/Buscador-de-Letras-y-Artistas/static/css/main.6b55effb.chunk.css.map",
+    "static/css/main.fa8963cc.chunk.css.map": "/Buscador-de-Letras-y-Artistas/static/css/main.fa8963cc.chunk.css.map",
     "static/js/2.9d9c96ee.chunk.js.LICENSE.txt": "/Buscador-de-Letras-y-Artistas/static/js/2.9d9c96ee.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Buscador-de-Letras-y-Artistas/static/media/img4.9c4eecc9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7f1c9172.js",
     "static/js/2.9d9c96ee.chunk.js",
-    "static/css/main.6b55effb.chunk.css",
-    "static/js/main.3cdb3103.chunk.js"
+    "static/css/main.fa8963cc.chunk.css",
+    "static/js/main.b9be0179.chunk.js"
   ]
 }
