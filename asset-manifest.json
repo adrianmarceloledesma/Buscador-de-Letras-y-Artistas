@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Buscador-de-Letras-y-Artistas/static/css/main.305d4b12.chunk.css",
+    "main.css": "/Buscador-de-Letras-y-Artistas/static/css/main.6b55effb.chunk.css",
     "main.js": "/Buscador-de-Letras-y-Artistas/static/js/main.3cdb3103.chunk.js",
     "main.js.map": "/Buscador-de-Letras-y-Artistas/static/js/main.3cdb3103.chunk.js.map",
     "runtime-main.js": "/Buscador-de-Letras-y-Artistas/static/js/runtime-main.7f1c9172.js",
@@ -8,16 +8,16 @@
     "static/js/2.9d9c96ee.chunk.js": "/Buscador-de-Letras-y-Artistas/static/js/2.9d9c96ee.chunk.js",
     "static/js/2.9d9c96ee.chunk.js.map": "/Buscador-de-Letras-y-Artistas/static/js/2.9d9c96ee.chunk.js.map",
     "index.html": "/Buscador-de-Letras-y-Artistas/index.html",
-    "precache-manifest.27bdebad4ab7684ca3f155fd5ba05808.js": "/Buscador-de-Letras-y-Artistas/precache-manifest.27bdebad4ab7684ca3f155fd5ba05808.js",
+    "precache-manifest.002e846f3474c367431a015836fcd502.js": "/Buscador-de-Letras-y-Artistas/precache-manifest.002e846f3474c367431a015836fcd502.js",
     "service-worker.js": "/Buscador-de-Letras-y-Artistas/service-worker.js",
-    "static/css/main.305d4b12.chunk.css.map": "/Buscador-de-Letras-y-Artistas/static/css/main.305d4b12.chunk.css.map",
+    "static/css/main.6b55effb.chunk.css.map": "/Buscador-de-Letras-y-Artistas/static/css/main.6b55effb.chunk.css.map",
     "static/js/2.9d9c96ee.chunk.js.LICENSE.txt": "/Buscador-de-Letras-y-Artistas/static/js/2.9d9c96ee.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Buscador-de-Letras-y-Artistas/static/media/img4.9c4eecc9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7f1c9172.js",
     "static/js/2.9d9c96ee.chunk.js",
-    "static/css/main.305d4b12.chunk.css",
+    "static/css/main.6b55effb.chunk.css",
     "static/js/main.3cdb3103.chunk.js"
   ]
 }
