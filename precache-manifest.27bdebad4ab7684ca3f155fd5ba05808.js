@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bfbe71d3279a90d42fd84f3c99a2998b",
+    "revision": "a1d87ec2f0ec44a8badd411e204f2d86",
     "url": "/Buscador-de-Letras-y-Artistas/index.html"
   },
   {
-    "revision": "135445d2d6ba5ec070a6",
+    "revision": "b453aee1563ffd9f6249",
     "url": "/Buscador-de-Letras-y-Artistas/static/css/main.305d4b12.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Buscador-de-Letras-y-Artistas/static/js/2.9d9c96ee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "135445d2d6ba5ec070a6",
-    "url": "/Buscador-de-Letras-y-Artistas/static/js/main.dafd74e2.chunk.js"
+    "revision": "b453aee1563ffd9f6249",
+    "url": "/Buscador-de-Letras-y-Artistas/static/js/main.3cdb3103.chunk.js"
   },
   {
     "revision": "b4241b09f5612fb0c6ba",
