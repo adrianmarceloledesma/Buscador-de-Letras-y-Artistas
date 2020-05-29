@@ -28,13 +28,11 @@ function Formulario(props) {
 
         props.setBusquedaLetra(busqueda)
 
-
-  
-
-
+        setBusqueda({
+            artista:'',
+            cancion:''
+        })
     }
-
-
 
     return (
         <form onSubmit={handlerClick}>

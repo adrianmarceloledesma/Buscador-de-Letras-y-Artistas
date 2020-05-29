@@ -6,11 +6,12 @@ function Cancion(props) {
 
     return (
         <Fragment>
-            <h2>Letra de la Canción</h2>
-            <div className="cont-p">
-               <p>{props.letra}</p>
-            </div>
-            
+                <h2>Letra de la Canción</h2>
+                <div className="cont-p">
+                   <p>{props.letra}</p>
+                </div>
+             
+                
         </Fragment>
     )
 }

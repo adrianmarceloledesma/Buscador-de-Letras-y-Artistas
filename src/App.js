@@ -17,36 +17,38 @@ function App() {
     // ni puta idea porque puso asi el return
 
     const consultarApiLetra = async() =>{
-      try{
         const url = `https://api.lyrics.ovh/v1/${busquedaLetra.artista}/${busquedaLetra.cancion}`;
-        const url2 = `https://www.theaudiodb.com/api/v1/json/1/search.php?s=${busquedaLetra.artista}`
-  
-        // haer que 2 APIS diferentes ninguna espere a la otra sino que individualmente una u otra vayan apareciendo(poniendo
-        // Promesas)
-        const [letras, info] = await Promise.all([
-          axios(url),
-          axios(url2)
-        ]);
-       
-        setLetra(letras.data.lyrics);
-        setBanda(info.data.artists[0]);
+        const resultado = await axios (url)
+
+      try{ 
+        setLetra(resultado.data.lyrics);
          
-    
       }catch{
+        setLetra('0')
+      }
+    }
+    
+    
+    const consultarApiBanda = async() =>{
+      const url = `https://www.theaudiodb.com/api/v1/json/1/search.php?s=${busquedaLetra.artista}`
+      const resultado = await axios(url)
+      try{
+        setBanda(resultado.data.artists[0])
+      }
+      catch{
         setBanda(0)
       }
     }
-    consultarApiLetra();
-
  
-    
-  }, [busquedaLetra,banda,])
+    consultarApiLetra();
+    consultarApiBanda();   
+  }, [busquedaLetra,banda]);
  
 
 
 
   return (
-    <div >
+    <div className="contenedor">
       <div className="contenedor-formulario">
         <Formulario 
             setBusquedaLetra={setBusquedaLetra}
